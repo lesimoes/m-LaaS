@@ -1,6 +1,6 @@
 Começando uma brincadeira com Machie Learning
 
-Por enquanto existe apenas o serviço knn que faz... Adivinha???? Parabéns pra quem penseou no famoso knn.
+Por enquanto existe apenas o serviço knn que faz... Adivinha???? Parabéns pra quem pensou no famoso knn.
 
 O dataset está no arquivo data.json
 
