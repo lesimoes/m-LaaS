@@ -1,0 +1,14 @@
+{
+  "name": "knn",
+  "version": "1.0.0",
+  "description": "a simple service with knn",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lesimoes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
