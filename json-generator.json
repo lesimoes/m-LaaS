@@ -1,0 +1,19 @@
+
+
+ {
+  data:[
+    '{{repeat(10000)}}',
+    {
+      id: '{{index()}}',
+      x: '{{integer(0, 999)}}', y: '{{integer(0, 999)}}',
+    class: function (tags) {
+        if(this.x < 500 && this.y < 500)
+        	return ('none');
+     	else
+          return ('NaN')
+      }
+  }]
+
+  //http://www.json-generator.com/
+
+}
