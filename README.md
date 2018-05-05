@@ -1,4 +1,7 @@
 A little playground with machine learning in nodejs
+A simple kNN service for NodeJS, comparing using Euclidean distances, returning top k closest objects.
+
+
 
 ### Install
 ` npm install `
