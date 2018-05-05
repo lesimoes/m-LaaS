@@ -27,7 +27,7 @@ var discoverClass = (data, k) => {
   var arrClass = [];
   arrClass.push({'class':data[0].class, 'value':1});
   for(var i = 1; i < k ; i ++){
-      for(var y = 0 ; y < arrClass.length ; y ++){
+      for(var y = 0 ; y < arrClass.length - 1; y ++){
         if(data[i].class == arrClass[y].class){
           arrClass[y].value ++
           break;
