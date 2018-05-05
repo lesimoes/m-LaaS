@@ -1,15 +1,16 @@
-var fs = require('fs');
-var express = require('express');
-var mlaas = require('./mlaas');
-const port = 3000;
-var app = express();
+let fs = require('fs');
+let express = require('express');
+let mlaas = require('./engine/mlaas');
+let data = JSON.parse(fs.readFileSync('dataset/basic/data.json','utf8'))
 
-var data = JSON.parse(fs.readFileSync('data.json','utf8'))
+let port = process.env.PORT || 3000;
+let app = express();
 
+console.log(process.env.PORT)
 app.get('/knn', function (req, res) {
-  var html = mlaas.knn(req, data);
+  let html = mlaas.knn(req, data);
   res.send(html);
 })
 
 app.listen(port);
-console.log('Listen on localhost:3000')
+console.log(`Magic happens on ${port}`)
