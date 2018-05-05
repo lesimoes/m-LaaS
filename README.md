@@ -1,5 +1,6 @@
-A little playground with machine learning in nodejs
-A simple kNN service for NodeJS, comparing using Euclidean distances, returning top k closest objects.
+A little playground with machine learning in nodejs.
+
+A simple kNN service, comparing using Euclidean distances, returning top k closest objects.
 
 
 
